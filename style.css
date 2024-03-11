@@ -11,3 +11,22 @@ canvas {
     margin: auto;
     background-color: black;
 } 
+
+@media only screen and (max-width: 600px) {
+ 
+    canvas {
+        width: 100%;
+        height: 100vh; 
+    }
+
+    #details-panel {
+        width: 100%;
+        height: auto;
+        position: static;
+        padding: 10px;
+    }
+
+    #solar-system {
+        display: block;
+    }
+}
